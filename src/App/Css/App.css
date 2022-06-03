@@ -1,0 +1,395 @@
+/************************************************************************/ /* Start Style All */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI;
+  user-select: none;
+}
+/************************************************************************/ /* End Style All */
+
+/************************************************************************/ /* Start Style Calculator */
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_calculator {
+  width: 400px;
+  height: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f1f1f;
+  border-radius: 15px;
+}
+
+.section_inner_calculator {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #20201e;
+  border-radius: 15px;
+  box-shadow: 0px 0 20px 0px #000;
+}
+
+.section_row_result_inner_calculator {
+  width: 80%;
+  height: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #a7af7c;
+  border-radius: 10px;
+}
+
+.section_row_button_one_inner_calculator {
+  width: 80%;
+  height: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section_one_button_row_one_inner_calculator {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e01114;
+  color: #eee;
+  font-size: 18px;
+  font-family: monospace;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #e01114, -4px -4px 2px #e01114, -4px 6px 2px #e01114,
+    6px -4px 2px #e01114, 6px 4px 2px #e01114, inset 0px 0px 6px #000000;
+}
+
+.section_two_button_row_one_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #383838, -4px -4px 2px #383838, -4px 6px 2px #383838,
+    6px -4px 2px #383838, 6px 4px 2px #383838, inset 0px 0px 6px #000000;
+}
+
+.section_three_button_row_one_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #383838, -4px -4px 2px #383838, -4px 6px 2px #383838,
+    6px -4px 2px #383838, 6px 4px 2px #383838, inset 0px 0px 6px #000000;
+}
+
+.section_row_button_two_inner_calculator {
+  width: 80%;
+  height: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section_one_button_row_two_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #383838, -4px -4px 2px #383838, -4px 6px 2px #383838,
+    6px -4px 2px #383838, 6px 4px 2px #383838, inset 0px 0px 6px #000000;
+}
+
+.section_two_button_row_two_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #383838, -4px -4px 2px #383838, -4px 6px 2px #383838,
+    6px -4px 2px #383838, 6px 4px 2px #383838, inset 0px 0px 6px #000000;
+}
+
+.section_three_button_row_two_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #383838, -4px -4px 2px #383838, -4px 6px 2px #383838,
+    6px -4px 2px #383838, 6px 4px 2px #383838, inset 0px 0px 6px #000000;
+}
+
+.section_four_button_row_two_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #383838, -4px -4px 2px #383838, -4px 6px 2px #383838,
+    6px -4px 2px #383838, 6px 4px 2px #383838, inset 0px 0px 6px #000000;
+}
+
+.section_row_button_three_inner_calculator {
+  width: 80%;
+  height: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section_one_button_row_three_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #383838, -4px -4px 2px #383838, -4px 6px 2px #383838,
+    6px -4px 2px #383838, 6px 4px 2px #383838, inset 0px 0px 6px #000000;
+}
+
+.section_two_button_row_three_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #383838, -4px -4px 2px #383838, -4px 6px 2px #383838,
+    6px -4px 2px #383838, 6px 4px 2px #383838, inset 0px 0px 6px #000000;
+}
+
+.section_three_button_row_three_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #383838, -4px -4px 2px #383838, -4px 6px 2px #383838,
+    6px -4px 2px #383838, 6px 4px 2px #383838, inset 0px 0px 6px #000000;
+}
+
+.section_four_button_row_three_inner_calculator {
+  position: relative;
+  width: 20%;
+  height: 170%;
+  bottom: -32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #383838, -4px -4px 2px #383838, -4px 6px 2px #383838,
+    6px -4px 2px #383838, 6px 4px 2px #383838, inset 0px 0px 6px #000000;
+}
+
+.section_row_button_four_inner_calculator {
+  width: 80%;
+  height: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section_one_button_row_four_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #383838, -4px -4px 2px #383838, -4px 6px 2px #383838,
+    6px -4px 2px #383838, 6px 4px 2px #383838, inset 0px 0px 6px #000000;
+}
+
+.section_two_button_row_four_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #383838, -4px -4px 2px #383838, -4px 6px 2px #383838,
+    6px -4px 2px #383838, 6px 4px 2px #383838, inset 0px 0px 6px #000000;
+}
+
+.section_three_button_row_four_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #383838, -4px -4px 2px #383838, -4px 6px 2px #383838,
+    6px -4px 2px #383838, 6px 4px 2px #383838, inset 0px 0px 6px #000000;
+}
+
+.section_four_button_row_four_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.section_row_button_five_inner_calculator {
+  width: 80%;
+  height: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section_one_button_row_five_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #383838, -4px -4px 2px #383838, -4px 6px 2px #383838,
+    6px -4px 2px #383838, 6px 4px 2px #383838, inset 0px 0px 6px #000000;
+}
+
+.section_two_button_row_five_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #383838, -4px -4px 2px #383838, -4px 6px 2px #383838,
+    6px -4px 2px #383838, 6px 4px 2px #383838, inset 0px 0px 6px #000000;
+}
+
+.section_three_button_row_five_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343334;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #383838, -4px -4px 2px #383838, -4px 6px 2px #383838,
+    6px -4px 2px #383838, 6px 4px 2px #383838, inset 0px 0px 6px #000000;
+}
+
+.section_four_button_row_five_inner_calculator {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2185d0;
+  color: #eee;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px #1971b8, -4px -4px 2px #1971b8, -4px 6px 2px #1971b8,
+    6px -4px 2px #1971b8, 6px 4px 2px #1971b8, inset 0px 0px 6px #000000;
+}
+/************************************************************************/ /* End Style Calculator */
